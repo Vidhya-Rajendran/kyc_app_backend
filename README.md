@@ -6,14 +6,14 @@ KYC Management Application Backend built with Node.js and Express. The backend h
 - **User Authentication**: JWT-based authentication with role-based access (Admin/User).
 - **KYC Form Handling**: API for submitting, updating, and retrieving KYC forms.
 - **Admin Dashboard**: Admins can approve or reject KYC submissions via API endpoints.
-- **Data Storage**: Uses **PostgreSQL**, **MySQL**, or **MongoDB** for KYC data storage.
+- **Data Storage**: Uses **MongoDB** for KYC data storage.
 - **API Security**: Secured API endpoints with JWT and role-based access control.
 
 ## Tech Stack
 - **Backend**: Node.js, Express.js
 - **Authentication**: JWT (JSON Web Tokens)
-- **Database**: PostgreSQL / MySQL / MongoDB
-- **API Testing**: Postman / Jest (if used)
+- **Database**: MongoDB
+- **API Testing**: Postman / Jest 
 - **Environment Variables**: dotenv for managing environment settings.
 
 ## Installation
@@ -21,7 +21,7 @@ KYC Management Application Backend built with Node.js and Express. The backend h
 ### Prerequisites:
 - Node.js (>=14.x)
 - npm (>=7.x)
-- Database (PostgreSQL/MySQL/MongoDB)
+- Database (MongoDB)
 
 ### Steps to Set Up:
 1. Clone the repository:
